@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.main{
+    display: flex;
+    justify-content: space-between;
+}
+
+.main .leftside{
+    width: 20%;
+    height: 100vh;
+    background: rgb(64, 162, 219);
+    padding: 10px;
+}
+
+.main .middle{
+    width: 50%;
+    border: 1px solid #000;
+}
+
+.main .rightside{
+    width: 20%;
+    height: 100vh;
+    background: rgb(64, 162, 219);
+}
+
+.msgbox{
+    background: red;
+    height: 95vh;
+    padding: 15px;
+    overflow-y: scroll;
+}
+
+.friends{
+    color: #fff;
+}
+
+.flistgroup{
+    height: 200px;
+    overflow-y: scroll;
+}
+
+.username{
+    color: #fff
+}
+
+.user{
+    cursor: pointer;
+}
